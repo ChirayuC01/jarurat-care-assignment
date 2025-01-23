@@ -2,6 +2,10 @@
 
 This repository contains a feature-rich, interactive web application built as part of a frontend development assignment. The app showcases essential skills in React, state management, API integration, routing, and UI/UX design.
 
+The project has been deployed using Vercel and can be accessed at the following link:
+
+🔗 [Live App](https://jarurat-care-assignment-ten.vercel.app/)
+
 ## 🚀 Features
 
 ### 1. **Dynamic Routing**

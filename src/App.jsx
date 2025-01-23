@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { Routes, Route } from "react-router-dom";
 import { ThemeContext } from "./context/ThemeContext";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import DataFetcher from "./components/DataFetcher";
 import Form from "./components/Form";
 import Map from "./components/Map";
@@ -22,7 +21,6 @@ const App = () => {
       </header>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/data" element={<DataFetcher />} />
         <Route path="/data/:id" element={<PostDetail />} />
         <Route path="/form" element={<Form />} />

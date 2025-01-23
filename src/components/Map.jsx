@@ -12,10 +12,8 @@ const Map = () => {
         zoom={13}
         style={{ height: "89vh", width: "100%" }}
       >
-        {/* Map tiles */}
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
-        {/* Add a marker */}
         <Marker position={position}>
           <Popup>Current Location</Popup>
         </Marker>

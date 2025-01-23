@@ -18,7 +18,7 @@ const DataFetcher = () => {
 
   const [searchTerm, setSearchTerm] = useState("");
 
-  if (isLoading) return <p>Loading...</p>;
+  if (isLoading) return <p>Loading....</p>;
   if (error) return <p>Error: {error.message}</p>;
 
   const filteredData = data.filter((item) =>

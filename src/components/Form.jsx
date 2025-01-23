@@ -31,13 +31,13 @@ const Form = () => {
       setErrors(validationErrors);
     } else {
       setErrors({});
-      setSubmittedData(formData); // Simulate form submission
-      setFormData({ name: "", email: "" }); // Clear form
+      setSubmittedData(formData);
+      setFormData({ name: "", email: "" });
     }
   };
 
   return (
-    <div>
+    <div className="full-height">
       <h2>Form with Validation</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -60,7 +60,9 @@ const Form = () => {
           />
           {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
         </div>
-        <button type="submit">Submit</button>
+        <button className="formButton" type="submit">
+          Submit
+        </button>
       </form>
 
       {submittedData && (

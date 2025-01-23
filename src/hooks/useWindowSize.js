@@ -16,7 +16,6 @@ const useWindowSize = () => {
 
         window.addEventListener("resize", handleResize);
 
-        // Cleanup the event listener on unmount
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 

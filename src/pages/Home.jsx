@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
+    <div className="full-height">
       <h1>Home Page</h1>
       <p>Welcome to the Home Page!</p>
       <div className="button-container">
